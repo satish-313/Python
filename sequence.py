@@ -9,9 +9,17 @@ for i in range(number_of_element):
     x = int(input("enter the number : "))
     _list.append(x)
 
+# enter list for string
+name_list = []
+for i in range (number_of_element):
+    name = input("Enter name : ")
+    name_list.append(name)
+
+
 #the tuple
 _tuple = (1, 2, 3,5,5,6)
 
 print (f"the list are : \n {_list}")
 print (f"the tuples are : \n {_tuple}")
 print (f"string are also sequece data : {string}")
+print (f"The name list :\n {name_list}")
